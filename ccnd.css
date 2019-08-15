@@ -1,0 +1,95 @@
+html{
+ overflow-x: hidden;
+
+}
+.navbar{
+overflow: hidden;
+background-color: white;
+position: sticky; /* Set the navbar to fixed position */
+top: 0; /* Position the navbar at the top of the page */
+width: 100%;
+margin-left: -10px;
+margin-top: -10px;
+margin: 0;
+}
+.topnav{
+ width: 100%;
+ position: fixed;
+}
+body{
+ background-color: #659DBD
+}
+body {
+ font-size: 30px;
+ font-family: 'Dosis', sans-serif;
+ font-color: white;
+ }
+/* #img{
+ height: 100px;
+ width: 170px;
+} */
+#primero{
+ margin-top: 20px;
+ margin-right: 10px;
+ font-size: 30px;
+ text-align: right;
+ font-family: 'Dosis', sans-serif;
+ color: #659DBD
+}
+.box{
+ background-color: white;
+ color: #659DBD;
+}
+.boxx{
+ background-color: #A6DAF7;
+ color: #659DBD;
+}
+/* #box2{
+ background-color: #DAF7A6
+}
+#box3{
+ background-color: #DAF7A6 */
+.fixed{
+ position: fixed; /* Set the navbar to fixed position */
+ top: 0; /* Position the navbar at the top of the page */
+ right: 0;
+ left: 5;
+}
+.st {
+ /* color: #DAF7A6; */
+ color: white;
+}
+.stt{
+ color: #A6DAF7;
+}
+.imgL {
+ float: left;
+}
+.imgR {
+ float: right;
+}
+.taR {
+ text-align: right;
+}
+.taL {
+ text-align: left;
+}
+.sst{
+ color: white;
+ font-size: 50px;
+}
+#hm{
+ color: #A6DAF7;
+ margin-left: 150px;
+ margin-right: 500px;
+ font-size: 30px;
+}
+#hf{
+ color: #A6DAF7;
+ margin-left: 500px;
+ margin-right: 200px;
+ font-size: 30px;
+}
+/* .taL {
+ text-align: left;
+} */
