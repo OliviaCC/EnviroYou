@@ -1,0 +1,60 @@
+html{
+  overflow-x: hidden;
+}
+.navbar{
+overflow: hidden;
+background-color: white;
+top: 0; /* Position the navbar at the top of the page */
+width: 100px;
+height: 100px;
+margin-top:-10px; /* Full width */
+margin-left: -10px;
+margin-top: -10px;
+position: sticky;
+z-index: 99;
+}
+body{
+ background-color: #659DBD
+}
+#img{
+ height: 100px;
+ width: 170px;
+}
+#primero{
+ margin-top: 20px;
+ margin-right: 10px;
+ font-size: 20px;
+ text-align: right;
+ font-family: 'Dosis', sans-serif;
+ color: #659DBD
+}
+.fixed{
+ position: fixed; /* Set the navbar to fixed position */
+ top: 0; /* Position the navbar at the top of the page */
+ right: 0;
+ left: 5;
+ width: 100%;
+ z-index: 99;
+}
+.topnav{
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+}
+body {
+  color: #white;
+}
+#list{
+  color: #white;
+}
+
+#box{
+ background-color: #A6DAf7;
+ font-size: 45px;
+ color: #659DBD;
+ font-family: 'Dosis', sans-serif;
+}
+#abc{
+  color: #DAF7A6
+  font-size: 20px;
+}
