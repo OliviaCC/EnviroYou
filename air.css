@@ -1,0 +1,227 @@
+body{
+ background-color: #659DBD;
+ width:100%;
+}
+body {
+ color: #659DBD;
+}
+#first{
+ font-family: 'Dosis', sans-serif;
+ margin-top:20px;
+ margin-right: 10px;
+ font-size: 30px;
+ text-align: right;
+ color: #659DBD
+}
+#traffic{
+ height: 300px;
+ width: 300px;
+ margin-left: 10px;
+ margin-right: 10px;
+ margin-bottom: 30px;
+ border-radius: 50%;
+ border: 10px solid white;
+ padding: 1px;
+}
+#smoking{
+ height: 300px;
+ width: 300px;
+ margin-left: 10px;
+ margin-right: 10px;
+ margin-bottom: 30px;
+ border-radius: 50%;
+}
+#index{
+ height: 300px;
+ width: 300px;
+ margin-left: 10px;
+ margin-right: 10px;
+ margin-bottom: 30px;
+ border-radius: 50%;
+}
+#vent{
+ height: 300px;
+ width: 300px;
+ margin-left: 10px;
+ margin-right: 10px;
+ margin-bottom: 30px;
+ border-radius: 50%;
+}
+#clean{
+ height: 300px;
+ width: 300px;
+ margin-left: 10px;
+ margin-right: 10px;
+ margin-bottom: 30px;
+ border-radius: 50%;
+}
+#chemicals{
+ height: 300px;
+ width: 300px;
+ margin-left: 10px;
+ margin-right: 10px;
+ margin-bottom: 30px;
+ border-radius: 50%;
+ text-align: center;
+}
+th{
+ padding:50px;
+}
+.container {
+ opacity:1;
+ position: relative;
+ width: 100%;
+}
+.image {
+ display: block;
+ width: 100%;
+ height: auto;
+ opacity:1;
+}
+.text {
+ color: white;
+ font-size: 20px;
+ position: absolute;
+ top: 50%;
+ left: 45%;
+ -webkit-transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
+ transform: translate(-50%, -50%);
+ text-align: center;
+ font-family: 'Dosis', sans-serif;
+ }
+.container:hover .image{
+ opacity: 0.5;
+}
+.container:hover .overlay{
+ opacity: 2;
+}
+.overlay {
+ position: absolute;
+ top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ height: 100%;
+ width: 100%;
+ opacity: 0;
+ transition: .5s ease;
+ backface-visibility: hidden;
+}
+#img{
+height: 100px;
+width: 170px;
+}
+.navbar{
+overflow: hidden;
+background-color: white;
+top: 0; /* Position the navbar at the top of the page */
+width: 100px;
+height: 100px;
+margin-top:-10px; /* Full width */
+margin-left: -10px;
+margin-top: -10px;
+position: sticky;
+z-index: 99;
+}
+.fixed{
+ position: fixed;
+ right: 0;
+ left: 5;
+ top:0;
+ width:100%;
+ z-index: 99;
+}
+#box{
+ background-color: #A6DAf7;
+ color: #659DBD;
+ font-family: 'Dosis', sans-serif;
+ font-size: 50px;
+}
+#text{
+ color: #DAF7A6;
+ font-size: 30px;
+ font-family: 'Dosis', sans-serif;
+}
+#outdoor{
+ font-family: 'Dosis', sans-serif;
+}
+.topnav{
+ width: 100%;
+ position: fixed;
+ z-index: 99;
+}
+#map{
+ margin-left: 50px;
+ margin-right: 50px;
+ width: 1000px;
+ height: 600px;
+ border: 10px solid white;
+ padding: 1px;
+}
+#outdoor{
+ color: white;
+ font-size: 30px;
+ font-family: 'Dosis', sans-serif;
+}
+#indoor{
+ color: white;
+ font-size: 30px;
+ font-family: 'Dosis', sans-serif;
+}
+#health{
+ color: white;
+ font-size: 30px;
+ font-family: 'Dosis', sans-serif;
+}
+#prevention{
+ color: white;
+ font-size: 30px;
+ font-family: 'Dosis', sans-serif;
+}
+#intro{
+ color: white;
+ font-size: 30px;
+ font-family: 'Dosis', sans-serif;
+}
+#alltext{
+ background-color: #E8A87C;
+ margin-left:300px;
+ margin-right: 300px;
+ padding: 30px;
+ border-radius: 25px;
+}
+#video{
+background-color: #E8A87C;
+padding: 10px;
+border-radius: 25px;
+}
+#stack{
+ width: 250px;
+ height: 250px;
+ margin-left: 10px;
+ margin-right: 5px;
+ align: left;
+ border-radius: 500px;
+ border: 10px solid white;
+ padding: 1px;
+}
+#hi{
+ width: 250px;
+ height: 250px;
+ margin-left: 5px;
+ margin-right: 10px;
+ align: right;
+ border-radius: 500px;
+ border: 10px solid white;
+ padding: 1px;
+}
+#resources{
+ font-size: 30px;
+ font-family: 'Dosis', sans-serif;
+}
+.bye {
+ color: white;
+ font-size: 30px;
+ font-family: 'Dosis', sans-serif;
+}
